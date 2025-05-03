@@ -1,0 +1,14 @@
+# Pythonキャッシュファイル
+__pycache__/*.pyc
+
+# マイグレーションのファイル全般を無視する（`versions` 配下も含む）
+migrations/versions/*
+migrations/__pycache__/*
+
+# ログファイル
+*.log
+
+# その他の無視したいファイル（.env など）
+.env
+*.key
+
